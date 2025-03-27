@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #ffffff;
+}
+.container{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 70px;
+    /* Optional styling */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow */
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    line-height: 80px; /* Vertically center text if the height and line-height are the same */
+}
